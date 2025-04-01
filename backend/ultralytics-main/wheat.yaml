@@ -1,0 +1,11 @@
+train: G:\yolo_learn\ultralytics-main\ultralytics-main\data\train.txt
+val: G:\yolo_learn\ultralytics-main\ultralytics-main\data\val.txt
+test: G:\yolo_learn\ultralytics-main\ultralytics-main\data\test.txt
+
+nc: 3 # 填写类别数
+
+names: ['RBC','WBC','Platelets']  # 要和voc_label.py中的类别数目顺序一模一样
+
+# train,val,test的路径根据自己情况而定
+
+#yolo train data=wheat.yaml model=yolov8n.pt epochs=200 imgsz=640 batch=8 workers=0 device=0
